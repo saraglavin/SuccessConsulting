@@ -51,7 +51,8 @@ dfn {
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
+    font-family: 'Montserrat', Arial, sans-serif;
 }
 
 mark {
@@ -233,7 +234,7 @@ td, th {
 
     h2, h3, p {
         orphans: 3;
-        widows: 3
+        widows: 3;
     }
 
     h2, h3 {
@@ -1349,11 +1350,13 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat',Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff
+    background-color: #fff;
+   
+    
 }
 
 button, input, select, textarea {
@@ -1447,9 +1450,10 @@ hr {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.1;
-    color: inherit
+    color: inherit;
+    font
 }
 
     .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
@@ -7293,66 +7297,3 @@ section {
 
 /*Egna saker vi lagt in*/
 
-.slide1 {
-    background-image: url('https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.slide2 {
-    background-image: url('https://images.pexels.com/photos/1036808/pexels-photo-1036808.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.slide3 {
-    background-image: url('https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.carousel-caption h1 {
-    font-size: 5.4em;
-    font-family: 'Pacifico', cursive;
-    padding-bottom: .4em;
-}
-
-.carousel-caption p {
-    font-size: 2em;
-}
-
-#startview {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-#Greenline {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 0;
-    border-top: 100px solid #0D2B14;
-}
-
-#rub1 {
-    color: white;
-    font-size: 100px;
-    font-family: 'Abril Fatface', cursive;
-}
-
-#welcome {
-    color: white;
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-}
-/*#info2 {
-    color: white;
-    font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
-}*/
