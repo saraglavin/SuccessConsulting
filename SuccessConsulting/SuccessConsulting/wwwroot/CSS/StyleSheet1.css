@@ -1,5 +1,6 @@
 ﻿body {
 }
+
 .slide1 {
     background-image: url('https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
     height: 500px;
@@ -65,9 +66,16 @@
     margin: 10px;
     background-color: #D98D6A;
     border-color: #E66B6A;
-    font-weight:600;
+    font-weight: 600;
     opacity: 0.8;
 }
+
+
+    #contactbutton:hover {
+        background-color: #E66B6A;
+        color: white;
+    }
+
 #send {
     border-radius: 5px;
     border-style: solid;
@@ -82,6 +90,12 @@
     font-weight: 600;
     opacity: 0.8;
 }
+
+    #othertopbutton:hover {
+        background-color: #125F19;
+        color:white;
+    }
+
 
 /*Flippiga kort*/
 
